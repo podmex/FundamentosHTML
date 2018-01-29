@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fundamentos HTML</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Logo</title>
+  <text stroke="#000000" transform="matrix(13.78120422363281,0,0,1,-4302.666702032089,-101) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="154" x="321" stroke-width="0" fill="#000000"/>
+  <text stroke="#000000" transform="matrix(2.3816378116607666,0,0,2.1842105388641357,-78.94764808192849,-33.1578950881958) " fill="#000000" stroke-width="0" x="85" y="55" id="svg_2" font-size="24" font-family="Cursive" text-anchor="middle" xml:space="preserve" font-weight="bold">BAN</text>
+  <path id="svg_3" d="m209.539446,79.790456q12.466149,8.561522 24.903194,0m-22.201396,-16.909158c0,-1.323184 1.072651,-2.395836 2.395834,-2.395836c1.323183,0 2.395834,1.072651 2.395834,2.395836c0,1.323183 -1.072651,2.395833 -2.395834,2.395833c-1.323183,0 -2.395834,-1.07265 -2.395834,-2.395833m14.73704,0c0,-1.323184 1.072651,-2.395836 2.395834,-2.395836c1.323183,0 2.395833,1.072651 2.395833,2.395836c0,1.323183 -1.07265,2.395833 -2.395833,2.395833c-1.32318,0 -2.395834,-1.07265 -2.395834,-2.395833m-27.972689,6.878701l0,0c0,-12.702549 10.297452,-23.000003 23.000003,-23.000003c12.702552,0 23.000003,10.297452 23.000003,23.000003c0,12.702552 -10.297451,23.000003 -23.000003,23.000003c-12.702549,0 -23.000003,-10.297451 -23.000003,-23.000003zm0,0l0,0c0,-12.702549 10.297452,-23.000003 23.000003,-23.000003c12.702552,0 23.000003,10.297452 23.000003,23.000003c0,12.702552 -10.297451,23.000003 -23.000003,23.000003c-12.702549,0 -23.000003,-10.297451 -23.000003,-23.000003z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#00ff00"/>
+ </g>
+</svg>
+<br>
+<h1>Hoja de vida</h1>
+<h2>Bulmaro Arellano Navarrete</h2>
+<h3>Fecha de nacimiento: 13 de Febrero de 1989. <br/> Lugar de nacimiento: Villa Aldama, Tamaulipas, México.</h3>
+<br>
+<a href="index.html">Inicio</a>
+<br>
+<a href="educacion.html">Educacion</a>
+<br>
+<a href="experiencia.html">Experiencia</a>
+<h2>Información Personal</h2>
+<img src="./images/html.png" alt="HTML5">
+<br>
+<h2>Educación</h2>
+<table border="1">
+	<thead>
+		<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td valign="middle">1995</td>
+			<td valign="middle">2001</td>
+			<td valign="middle">2004</td>
+			<td valign="middle">2007</td>
+		</tr>
+		<tr>
+			<td valign="middle">Primaria Justo Sierra</td>
+			<td valign="middle">Secundaria Emiliano Zapata</td>
+			<td valign="middle">Preparatoria Oficial #65</td>
+			<td valign="middle">Instituto Tecnológico de Toluca</td>
+		</tr>
+		<tr>
+			<td valign="middle">Si</td>
+			<td valign="middle">Si</td>
+			<td valign="middle">Si</td>
+			<td valign="middle">Si</td>
+		</tr>
+	</tbody>
+</table>
+ <form name="Agregar Estudios" action="#" method="get" accept-charset="utf-8">
+ 	<fieldset>
+ 		<legend>Agregar Estudios</legend>
+ 		<label>Año:
+			<select name="year">
+				<option value="1995">1995</option>
+				<option value="1995">1996</option>
+				<option value="1995">1997</option>
+				<option value="1995">1998</option>
+				<option value="1995">1999</option>
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+			</select>	
+ 		</label><br>
+ 		<label>Institución: <input type="text" name="institucion" required="required" value=""></label><br>
+ 		<label>Lugar: <input type="text" name="lugar"  value=""></label><br>
+ 		<label>¿Culminó?: <input type="radio" name="culmino"  value="Si"> Si
+ 			<input type="radio" name="culmino"  value="No">No<br>
+ 		</label><br>
+ 		<label><input type="submit" name="submit" value="Enviar"></label><br>
+ 	</fieldset>
+</form>
+<footer>
+<ul>
+	<li>Email: <a href="mailto:arellanonavarretebulmaro@gmail.com?subject=Contacto" "Escríbeme">arellanonavarretebulmaro@gmail.com</a></li>
+	<li>Telefono: 7223128905</li>
+	<li>Dirección: Juan N. Mirafuentes 200, Col. Valle Verde, Toluca, México</li>
+</ul>	
+</footer>
+</body>
+</html>
